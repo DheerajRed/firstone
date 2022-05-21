@@ -1,0 +1,148 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+
+.navbar{
+    
+    padding: 20px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(95, 91, 91);
+    height: 20px;
+
+}
+.navbar img{
+    height: 40px;
+    width: 100px;
+    position: relative;
+    right: 250px;
+
+ }
+.navbar input{
+    text-align: center;
+    position: relative;
+    left: 100px;
+    top: -10px;
+    border:2px solid white;
+    border-radius: 2px;
+    
+}
+.navbar button{
+    
+    position: relative;
+    left: 1050px;
+    top: 0px;
+    height: 30px;
+    background-color: red;
+    color: white;
+    border: 2px solid red;
+    border-radius: 3px;
+}
+.events{
+    background-color: rgb(56, 49, 49);
+    height: 40px;
+
+}
+.events a{
+    padding: 20px 30px;
+    text-decoration: none;
+    color: white;
+    position: relative;
+    top:10px;
+}
+.pic1{
+    margin-left: 30px;
+}
+.pic1 img{
+    height: 600px;
+    width: 100%;
+    justify-content: center;
+    
+    box-shadow: 30px 30px 30px 30px black inset;
+}
+.bg1{
+    background-color: black;
+    height: 600px;
+    width: 200px;
+    position: relative;
+    top: -605px;
+    opacity: 0.7;
+    box-shadow: 10px 10px 10px black;
+}
+.bg2{
+    background-color: black;
+    height: 600px;
+    width: 200px;
+    position: relative;
+    top: -1205px;
+    left: 1150px;
+    opacity: 0.7;
+    box-shadow: 10px 10px 10px 10px black;
+}
+.bg3{
+    background-color: black;
+    height: 600px;
+    width: 930px;
+    position: relative;
+    top: -1805px;
+    left: 200px;
+    opacity: 0.8;
+    box-shadow: 10px 10px 10px 10px black;
+}
+.sv img{
+    height: 500px;
+    width: 300px;
+    position: relative;
+    top: -2350px;
+    left: 150px;
+    border: 2px solid black;
+    border-radius: 5px;
+
+    box-shadow: 10px 10px 10px 10px black;
+}
+.title h1{
+    position: relative;
+    top: -2700px;
+    color: red;
+    left: 500px;
+}
+.title h2{
+    position: relative;
+    top: -2900px;
+    left: 500px;
+    color: white;
+    font-size: 50px;
+    font-weight: 200px;
+}
+.title h3{
+    position: relative;
+    top: -2750px;
+    left: 630px;
+    color: white;
+    
+}
+.rating{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 600px;
+    position: relative;
+    top: -2850px;
+    left: 500px;
+    color: white;
+    text-align: center;
+    background-color: grey;
+}
+.rating button{
+    position: relative;
+    left: 140px;
+    top: -30px;
+    height: 50px;
+    width: 120px;
+    border: 2px sold grey;
+    border-radius: 6px;
+    background-color: rgb(158, 61, 118);
+    cursor: pointer;
+}
