@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="b.css">
+</head>
+<body>
+    <div class="navbar">
+        <a  target="_self"><input type="text" name="search" id="sea" value="" placeholder="search"  onchange="openpage()"></a>
+        <a href="/sign.html"><button>sign in</button></a>
+        <img src="logo.img.jpg" alt="">
+        <form action="backend.php">
+            <label for="cities"></label>
+            <select name="cities" id="ct">
+                <option value="hyderabad">hyderabad</option>
+                <option value="bangalore">Bangalore</option>
+                <option value="chennai">Chennai</option>
+                <option value="mumbai">Mumbai</option>
+            </select>
+        </form>
+    </div>
+    <div class="body">
+        <a href="">Movies</a>
+        <a href="">Shows</a>
+        <a href="">Sports</a>
+        <a href="">Events</a>
+    </div>
+    <div class="body2">
+        <a href="/svp.html"><img src="svp.webp" alt=""></a>
+        <a href="/kgf.html"><img src="kgf2.jpg" alt=""></a>
+        <a href="/don.html"><img src="don.jpg" alt=""></a>
+        <a href="/rrr.html"><img src="rrr.jpeg" alt=""></a>
+    </div>
+    <div class="midcontent">
+        <h1>Premiers</h1>
+        <h4>watch movies at home every fridays</h4>
+        <a href=""><img src="bat.jpg" alt=""></a>
+        
+        <a href=""><img src="dB.jpg" alt=""></a>
+        
+        <a href=""><img src="gangu.jpg" alt=""></a>
+        <a href=""><img src="spi.jpg" alt=""></a>
+        
+    </div>
+    <div class="footer">
+        <h2>Movies showing in Hyderbad</h2>
+        <a href="/svp.html">Sarkaru vari paata</a>
+        <a href="">Bhool bhulaya 2</a>
+        <a href="/don.html">Don</a>
+        <a href="">Jurasic park:Domination 2</a>
+        <h2>Upcoming movies in Hyderabad</h2>
+        <a href="">Chase</a>
+        <a href="">Pharamba</a>
+        <a href="">Vijayi bhav</a>
+        <a href="">Rang</a>
+        <hr>
+        <h3>book my show</h3>
+        <p>copyright section</p>
+        <p>copyright section</p>
+    </div>
+    <script>
+        function openpage(){
+            var x = document.getElementById("sea").value;
+            if(x=="kgf"){
+                window.open("/kgf.html")
+            }
+            else if(x=="svp"){
+                window.open("/svp.html")
+            }
+            else if(x=="don"){
+                window.open("/don.html")
+            }
+            else if(x=="rrr"){
+                window.open("/rrr.html")
+            }
+            if(x=="asian"){
+                window.open("/seats.html")
+            }
+        }
+
+    </script>
+</body>
+</html>

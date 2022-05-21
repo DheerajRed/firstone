@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            text-align: center;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <form onsubmit="return verifyPassword()">
+        Enter your email:
+        <input type="text" name="" id="email">
+        <br>
+        Enter your password:
+        <br>
+        <input type="text" name="" id="pass1" value="">
+        <span id="message"></span>
+        <br>
+        confirm your password:
+        <br>
+        <input type="text" name="" id="pass2">
+        <span id="success"></span>
+        
+        <input type="submit" value="Submit">
+        
+       
+        </div>
+    </form>
+    <script>
+        function verifyPassword() {
+            var x = document.getElementById("pass1").value;
+            var y = document.getElementById("pass2").value;
+            if (x == "") {
+                document.getElementById("message").innerHTML = "password should no be empty";
+                return false;
+            }
+           
+             
+            
+             if(x.length<8){
+                document.getElementById("message").innerHTML="password must be more that 8 characters";
+                return false;
+            }
+             
+            if(x.length>15){
+                document.getElementById("message").innerHTML="password should be less than 15 characters";
+                return false;
+            }
+            if(x!=y){
+                document.getElementById("message").innerHTML="passwords mismatched";
+                return false;
+            }
+            if(x==y){
+                alert("your account created successfully")
+
+            }
+
+        }
+    </script>
+</body>
+
+</html>

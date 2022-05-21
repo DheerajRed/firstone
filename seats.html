@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #form{
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    
+    <form onsubmit="checkbox()" id="form">
+        <ul id="seats">
+            <input type="checkbox" id="seat1">
+            <input type="checkbox" id="seat2">
+            <input type="checkbox" id="seat3">
+            <input type="checkbox" id="seat4">
+        </ul>
+        <ul>
+            <input type="checkbox" id="seat5">
+            <input type="checkbox" id="seat6">
+            <input type="checkbox" id="seat7">
+            <input type="checkbox" id="seat8">
+        </ul>
+        <br>
+        <span id="message"></span>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+    <br>
+    <br>
+    <h2>No styling has been done to this seats page, it will look much better if we add more seats and style this page
+        added some seats and funtional submit button which will redirect you to payments page and if you click on submit button without 
+        selecting seats it will ask you to select seats first
+    </h2>
+    <script>
+        function checkbox() {
+            if (seat1.checked) {
+                window.open("/payment.html")
+            }
+            else if (seat2.checked) {
+                window.open("/payment.html")
+            }
+            else if (seat3.checked) {
+                window.open("/payment.html")
+            }
+            else if (seat4.checked) {
+                window.open("/payment.html")
+            }
+            else if (seat5.checked) {
+                window.open("/payment.html")
+            }
+            else if (seat6.checked) {
+                window.open("/payment.html")
+            }
+            else if (seat7.checked) {
+                window.open("/payment.html")
+            }
+            else if (seat8.checked) {
+                window.open("/payment.html")
+            }
+            else {
+                alert("please select seats to make payment")
+            }
+
+
+        }
+    </script>
+</body>
+
+</html>
